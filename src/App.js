@@ -1,19 +1,15 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { Container, SideBar } from './App.styled';
+import { Container } from './App.styled';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Skills from './pages/Skills/Skills';
 import Portfolio from './pages/Portfolio/Portfolio';
-import { Navigation } from './components/Navigation/Navigation';
-import { Contacts } from './components/Contacts/Contacts';
+import { SideBar } from './components/SideBar/SideBar';
 
 function App() {
   return (
     <Container>
-      <SideBar>
-        <Navigation />
-        <Contacts />
-      </SideBar>
+      <SideBar />
 
       <Routes>
         <Route path="/" element={<Home />} />

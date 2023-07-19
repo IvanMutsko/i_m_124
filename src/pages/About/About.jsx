@@ -17,7 +17,7 @@ export default function Home() {
         with honors in Repair and maintenance of cars and engines
       </p>
       <h3>Work experience</h3>
-      <p>LLC "Retail-Ukraine" Logistics manager 2021-2023</p>
+      <p>LLC "Retail-Ukraine" Logistics manager 2021-Present</p>
       <p>
         search for transport and attracting new carriers conducting negotiations
         and signing contracts development and implementation of new projects

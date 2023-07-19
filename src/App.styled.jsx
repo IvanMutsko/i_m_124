@@ -5,7 +5,4 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
-export const SideBar = styled.aside`
-  width: 250px;
-  background-color: #596559;
-`;
+

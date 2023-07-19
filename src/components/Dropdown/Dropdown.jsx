@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { DropdownContainer, DropBtn, DropdownContent } from './Dropdown.styled';
 
-export const Dropdown = ({ children }) => {
+export const Dropdown = ({ title, children }) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -8,9 +9,9 @@ export const Dropdown = ({ children }) => {
   };
 
   return (
-    <div className="dropdown">
-      <button onClick={handleOpen}>CONTACT ME</button>
-      {open ? <>{children}</> : null}
-    </div>
+    <DropdownContainer className={open ? 'open' : ''}>
+      <DropBtn onClick={handleOpen}>{title}</DropBtn>
+      <DropdownContent open={open}>{children}</DropdownContent>
+    </DropdownContainer>
   );
 };

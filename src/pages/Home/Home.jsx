@@ -1,16 +1,23 @@
-import { Container, Greeting, Name, Position } from './Home.styled';
+import {
+  Container,
+  Greeting,
+  Name,
+  Position,
+  Image,
+  TextBlock,
+} from './Home.styled';
 import photo from '../../img/photo.png';
 
 export default function Home() {
   return (
     <Container>
-      <div>
+      <TextBlock>
         <Greeting>Hi, I am</Greeting>
         <Name>Ivan Mutsko</Name>
         <Position>Front-end Developer</Position>
-      </div>
+      </TextBlock>
       <div>
-        <img src={photo} alt="Photo Ivan Mutsko" width={400} />
+        <Image src={photo} alt="Photo Ivan Mutsko" />
       </div>
     </Container>
   );
