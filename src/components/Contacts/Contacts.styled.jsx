@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const ContactList = styled.ul`
   position: absolute;
-  box-sizing: border-box;
 
   list-style-type: none;
   margin: 0;
@@ -28,7 +27,7 @@ export const ContactLink = styled.a`
 
   text-align: left;
   text-decoration: none;
-  color: inherit;
+  color: #ffffff99;
   font-size: 18px;
   letter-spacing: 0.1rem;
 

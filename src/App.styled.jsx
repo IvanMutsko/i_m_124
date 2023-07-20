@@ -1,8 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Content = styled.div`
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  min-height: 100vh;
 `;
 
-
+export const Container = styled.div`
+  display: flex;
+  flex: 1 1 0%;
+  height: 100%;
+`;

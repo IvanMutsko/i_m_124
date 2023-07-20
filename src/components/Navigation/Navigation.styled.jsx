@@ -41,7 +41,7 @@ export const NavigateLink = styled(NavLink)`
 
   text-align: left;
   text-decoration: none;
-  color: inherit;
+  color: #ffffff99;
 
   padding: 10px;
   margin: 0;

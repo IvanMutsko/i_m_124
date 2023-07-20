@@ -9,6 +9,7 @@ export const DropBtn = styled.button`
   height: 40px;
 
   background-color: #ffffff42;
+  color: #ffffff99;
   border: none;
   font-size: 20px;
   letter-spacing: 0.2rem;

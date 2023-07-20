@@ -4,34 +4,49 @@ import img from '../../img/mountains.jpg';
 export const Container = styled.div`
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
 
   background-image: url(${img});
   background-size: cover;
   background-repeat: no-repeat;
+
+  color: #ffffff99;
+  font-size: 36px;
 `;
 
 export const TextBlock = styled.div`
-  margin-right: 150px;
+  margin-top: auto;
+  padding: 40px;
+  background-color: #5965597e;
 `;
 
 export const Greeting = styled.p`
-  color: #1f2f2f;
   text-align: center;
+
+  margin: 0;
+  padding: 5px;
 `;
 
 export const Name = styled.h1`
-  color: #1f2f2f;
   text-align: center;
-  font-size: 48px;
+  font-size: 52px;
+
+  margin: 0;
+  padding: 5px;
 `;
 
 export const Position = styled.p`
-  color: #1f2f2f;
   text-align: center;
+
+  margin: 0;
+  padding: 5px;
+`;
+
+export const ImgContainer = styled.div`
+  margin-top: auto;
 `;
 
 export const Image = styled.img`
-  max-width: 400px;
+  display: block;
+  max-width: 430px;
 `;

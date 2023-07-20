@@ -5,6 +5,7 @@ import {
   Position,
   Image,
   TextBlock,
+  ImgContainer,
 } from './Home.styled';
 import photo from '../../img/photo.png';
 
@@ -16,9 +17,9 @@ export default function Home() {
         <Name>Ivan Mutsko</Name>
         <Position>Front-end Developer</Position>
       </TextBlock>
-      <div>
+      <ImgContainer>
         <Image src={photo} alt="Photo Ivan Mutsko" />
-      </div>
+      </ImgContainer>
     </Container>
   );
 }
