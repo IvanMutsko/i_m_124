@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Bar = styled.aside`
-  width: 330px;
+  min-width: 280px;
   background-color: #596559;
 
   font-size: 24px;

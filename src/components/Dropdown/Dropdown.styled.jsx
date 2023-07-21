@@ -13,8 +13,6 @@ export const DropBtn = styled.button`
   border: none;
   font-size: 20px;
   letter-spacing: 0.2rem;
-
-  cursor: pointer;
 `;
 
 export const DropdownContent = styled.div`

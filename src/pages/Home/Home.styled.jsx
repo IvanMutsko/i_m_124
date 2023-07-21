@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../img/mountains.jpg';
+import img from '../../img/backgrounds/mountains.jpg';
 
 export const Container = styled.div`
   width: 100%;
@@ -31,14 +31,12 @@ export const Name = styled.h1`
   text-align: center;
   font-size: 52px;
 
-  margin: 0;
   padding: 5px;
 `;
 
 export const Position = styled.p`
   text-align: center;
 
-  margin: 0;
   padding: 5px;
 `;
 
@@ -47,6 +45,5 @@ export const ImgContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  display: block;
   max-width: 430px;
 `;

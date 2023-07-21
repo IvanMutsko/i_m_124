@@ -7,7 +7,7 @@ import {
   TextBlock,
   ImgContainer,
 } from './Home.styled';
-import photo from '../../img/photo.png';
+import photo from '../../img/photo/photo.png';
 
 export default function Home() {
   return (

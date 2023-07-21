@@ -2,13 +2,11 @@ import {
   Container,
   MainTitle,
   TextAbout,
-  EducationTitle,
-  EducationText,
-  ExperienceTitle,
-  ExperienceSubtitle,
-  ExperienceText,
-  DutiesList,
-  DutyItem,
+  Title,
+  Subtitle,
+  Text,
+  List,
+  Item,
 } from './About.styled';
 
 export default function Home() {
@@ -21,45 +19,43 @@ export default function Home() {
         problems and find the best solutions. Because of this, I devote a lot of
         time and attention to improving my knowledge and practical skills.
       </TextAbout>
-
-      <EducationTitle>Education</EducationTitle>
-      <EducationText>
-        IT School GoIT 2022-2023 Fullstack Developer Priazov State Technical
-        University 2015-2018 Bachelor's degree with honors in Transport
-        technologies Mariupol Construction College 2011-2015 Associate Degree
-        with honors in Repair and maintenance of cars and engines
-      </EducationText>
-      <ExperienceTitle>Work experience</ExperienceTitle>
-      <ExperienceSubtitle>
-        LLC "Retail-Ukraine" Logistics manager 2021-Present
-      </ExperienceSubtitle>
-      <DutiesList>
-        <DutyItem>search for transport and attracting new carriers </DutyItem>
-        <DutyItem>conducting negotiations and signing contracts</DutyItem>
-        <DutyItem>development and implementation of new projects</DutyItem>
-        <DutyItem>prompt resolution of problem situations</DutyItem>
-        <DutyItem>conducting analytical work to reduce costs</DutyItem>
-      </DutiesList>
-      <ExperienceText>
+      <Title>Education</Title>
+      <Subtitle>IT School GoIT 2022-2023</Subtitle>
+      <Text>Fullstack Developer</Text>
+      <Subtitle>Priazov State Technical University 2015-2018</Subtitle>
+      <Text>Bachelor's degree with honors in Transport technologies</Text>
+      <Subtitle>Mariupol Construction College 2011-2015</Subtitle>
+      <Text>
+        Associate Degree with honors in Repair and maintenance of cars and
+        engines
+      </Text>
+      <Title>Work experience</Title>
+      <Subtitle>LLC "Retail-Ukraine" Logistics manager 2021-Present</Subtitle>
+      <List>
+        <Item>search for transport and attracting new carriers </Item>
+        <Item>conducting negotiations and signing contracts</Item>
+        <Item>development and implementation of new projects</Item>
+        <Item>prompt resolution of problem situations</Item>
+        <Item>conducting analytical work to reduce costs</Item>
+      </List>
+      <Text>
         Achievements: reduced transport costs, introduced GPS transport
         monitoring, redesigned and expanded the functionality of monitoring
         transport indicators.
-      </ExperienceText>
-
-      <ExperienceSubtitle>
+      </Text>
+      <Subtitle>
         LLC "Retail-Ukraine" Controller of food products 2020-2020
-      </ExperienceSubtitle>
-      <DutiesList>
-        <DutyItem>quality control of product selection</DutyItem>
+      </Subtitle>
+      <List>
+        <Item>quality control of product selection</Item>
 
-        <DutyItem>detection and elimination of selection errors</DutyItem>
-        <DutyItem>documentation management</DutyItem>
-      </DutiesList>
-
-      <ExperienceText>
+        <Item>detection and elimination of selection errors</Item>
+        <Item>documentation management</Item>
+      </List>
+      <Text>
         Achievements: optimized the product search process and reduced the
         percentage of errors. Got a promotion.
-      </ExperienceText>
+      </Text>
     </Container>
   );
 }

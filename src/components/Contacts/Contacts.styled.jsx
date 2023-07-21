@@ -3,10 +3,6 @@ import styled from 'styled-components';
 export const ContactList = styled.ul`
   position: absolute;
 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
   width: 100%;
 `;
 
@@ -33,6 +29,4 @@ export const ContactLink = styled.a`
 
   padding: 10px;
   margin: 0;
-
-  cursor: pointer;
 `;

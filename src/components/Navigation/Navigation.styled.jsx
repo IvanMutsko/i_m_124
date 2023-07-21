@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import img from '../../img/side-mountains.jpg';
+import img from '../../img/backgrounds/side-mountains.jpg';
 
 export const Container = styled.div`
   height: 360px;
@@ -17,10 +17,6 @@ export const Container = styled.div`
 `;
 
 export const List = styled.ul`
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
   width: 100%;
 `;
 
@@ -45,6 +41,4 @@ export const NavigateLink = styled(NavLink)`
 
   padding: 10px;
   margin: 0;
-
-  cursor: pointer;
 `;
