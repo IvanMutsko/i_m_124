@@ -19,14 +19,14 @@ export const WorkCard = ({
   github,
   liveLink,
 }) => {
-  const [showDescription, setShowDescription] = useState(false);
+  const [showDescription, setShowDescription] = useState(0);
 
   const handleMouseEnter = () => {
-    setShowDescription(true);
+    setShowDescription(1);
   };
 
   const handleMouseLeave = () => {
-    setShowDescription(false);
+    setShowDescription(0);
   };
 
   return (

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import img from '../../img/backgrounds/black-desk.jpg';
+// import img from '../../img/backgrounds/black-desk.jpg';
+import img from '../../img/backgrounds/about-bg.jpg';
 
 export const Container = styled.div`
   width: 100%;

@@ -6,7 +6,12 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
 
-  background-image: url(${img});
+  background-image: linear-gradient(
+      to right,
+      rgba(41, 46, 41, 0.4),
+      rgba(41, 46, 41, 0.4)
+    ),
+    url(${img});
   background-size: cover;
   background-repeat: no-repeat;
 
