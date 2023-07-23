@@ -1,5 +1,9 @@
 import { Dropdown } from '../Dropdown/Dropdown';
 import { ContactList, ContactItem, ContactLink } from './Contacts.styled';
+import { Icon } from '../Icon/Icon';
+import telegram from '../../img/icons/telegram.svg';
+import linkedin from '../../img/icons/linkedin.svg';
+import github from '../../img/icons/github.svg';
 
 export const Contacts = () => {
   return (
@@ -19,6 +23,7 @@ export const Contacts = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Icon icon={telegram} size={'28px'} />
             Telegram
           </ContactLink>
         </ContactItem>
@@ -28,6 +33,7 @@ export const Contacts = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Icon icon={linkedin} size={'28px'} />
             LinkedIn
           </ContactLink>
         </ContactItem>
@@ -38,6 +44,7 @@ export const Contacts = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Icon icon={github} size={'28px'} />
             GitHub
           </ContactLink>
         </ContactItem>

@@ -19,7 +19,9 @@ export const ContactItem = styled.li`
 `;
 
 export const ContactLink = styled.a`
-  display: block;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 
   text-align: left;
   text-decoration: none;
