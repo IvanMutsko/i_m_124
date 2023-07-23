@@ -13,6 +13,12 @@ export const DropBtn = styled.button`
   border: none;
   font-size: 20px;
   letter-spacing: 0.2rem;
+
+  transition: background-color 250ms linear;
+
+  &:hover {
+    background-color: #ffffff89;
+  }
 `;
 
 export const DropdownContent = styled.div`
