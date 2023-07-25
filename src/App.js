@@ -19,8 +19,6 @@ function App() {
   return (
     <Content>
       <Container>
-        <SideBar />
-
         <Suspense
           fallback={
             <PropagateLoader
@@ -31,6 +29,7 @@ function App() {
             />
           }
         >
+          <SideBar />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />

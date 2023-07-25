@@ -17,6 +17,10 @@ export const Container = styled.div`
 
   color: #ffffff99;
   font-size: 36px;
+
+  @media (max-width: 1023px) {
+    flex-direction: column;
+  }
 `;
 
 export const TextBlock = styled.div`
@@ -51,4 +55,8 @@ export const ImgContainer = styled.div`
 
 export const Image = styled.img`
   max-width: 430px;
+
+  @media (max-width: 1023px) {
+    max-width: 300px;
+  }
 `;

@@ -13,7 +13,6 @@ export const Container = styled.div`
     ),
     url(${img});
 
-  width: 100%;
   padding: 40px;
 
   color: #b4b4b4;
@@ -23,6 +22,10 @@ export const SubContainer = styled.div`
   display: flex;
   gap: 80px;
   margin-bottom: 60px;
+
+  @media (max-width: 1023px) {
+    flex-direction: column;
+  }
 `;
 
 export const Title = styled.h2`

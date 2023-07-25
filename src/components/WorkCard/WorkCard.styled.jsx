@@ -12,6 +12,10 @@ export const CardContainer = styled.div`
   &:hover {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
   }
+
+  @media (max-width: 1023px) {
+  width: 300px;
+  }
 `;
 
 export const CardImage = styled.img`

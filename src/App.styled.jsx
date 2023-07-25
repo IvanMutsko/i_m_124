@@ -12,4 +12,8 @@ export const Container = styled.div`
   display: flex;
   flex: 1 1 0%;
   height: 100%;
+
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+  }
 `;
