@@ -14,7 +14,7 @@ export const CardContainer = styled.div`
   }
 
   @media (max-width: 1023px) {
-  width: 300px;
+    width: 300px;
   }
 `;
 
@@ -89,5 +89,6 @@ export const CardOverlay = styled.div`
   padding: 20px;
 
   opacity: ${props => (props.show ? '1' : '0')};
+  pointer-events: ${props => (props.show ? 'auto' : 'none')};
   transition: opacity 250ms linear;
 `;
