@@ -1,21 +1,29 @@
 import { Container, NavigateLink, List, Item } from './Navigation.styled';
 
-export const Navigation = () => {
+export const Navigation = ({ onClick }) => {
   return (
     <Container>
       <nav>
         <List>
           <Item>
-            <NavigateLink to="/">Home</NavigateLink>
+            <NavigateLink to="/" onClick={() => onClick(false)}>
+              Home
+            </NavigateLink>
           </Item>
           <Item>
-            <NavigateLink to="/about">About me</NavigateLink>
+            <NavigateLink to="/about" onClick={() => onClick(false)}>
+              About me
+            </NavigateLink>
           </Item>
           <Item>
-            <NavigateLink to="/skills">Skills</NavigateLink>
+            <NavigateLink to="/skills" onClick={() => onClick(false)}>
+              Skills
+            </NavigateLink>
           </Item>
           <Item>
-            <NavigateLink to="/portfolio">Portfolio</NavigateLink>
+            <NavigateLink to="/portfolio" onClick={() => onClick(false)}>
+              Portfolio
+            </NavigateLink>
           </Item>
         </List>
       </nav>

@@ -39,7 +39,7 @@ export const WorkCard = ({
         <CardTitle>{title}</CardTitle>
         <CardTechnologies>{technologies}</CardTechnologies>
       </CardContent>
-      <CardOverlay show={showDescription}>
+      <CardOverlay $show={showDescription}>
         <CardDescription>{description}</CardDescription>
         <LinkWrap>
           <WorkLink href={github} target="_blank" rel="noopener noreferrer">

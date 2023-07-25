@@ -41,4 +41,8 @@ export const NavigateLink = styled(NavLink)`
 
   padding: 10px;
   margin: 0;
+
+  @media (max-width: 1023px) {
+    font-size: 30px;
+  }
 `;

@@ -24,7 +24,7 @@ export const SideBar = () => {
 
       {isBurgerOpen && (
         <BurgerMenu open={isBurgerOpen}>
-          <Navigation />
+          <Navigation onClick={setIsBurgerOpen} />
           <Contacts />
         </BurgerMenu>
       )}
