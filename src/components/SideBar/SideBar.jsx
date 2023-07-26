@@ -14,7 +14,7 @@ export const SideBar = () => {
   return (
     <Container>
       <Bar>
-        <Navigation />
+        <Navigation onClick={setIsBurgerOpen} />
         <Contacts />
       </Bar>
 
