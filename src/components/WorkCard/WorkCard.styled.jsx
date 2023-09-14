@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.li`
   position: relative;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
@@ -8,6 +8,8 @@ export const CardContainer = styled.div`
 
   width: 360px;
   background-color: #596559;
+
+  list-style: none;
 
   &:hover {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);

@@ -5,6 +5,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 
   background-image: linear-gradient(
       to right,
@@ -12,8 +13,6 @@ export const Container = styled.div`
       rgba(41, 46, 41, 0.9)
     ),
     url(${img});
-
-  padding: 40px;
 
   color: #b4b4b4;
 `;
@@ -53,7 +52,8 @@ export const IconsContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
 
-  gap: 20px;
+  gap: 30px;
+  padding: 0 40px;
 `;
 
 export const Icon = styled.img`

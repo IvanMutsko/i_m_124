@@ -2,11 +2,7 @@ import { styled } from 'styled-components';
 import img from '../../img/backgrounds/keyboard-bg.jpg';
 
 export const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px;
+  width: 100%;
 
   background-image: linear-gradient(
       to right,
@@ -16,4 +12,11 @@ export const Container = styled.div`
     url(${img});
 
   color: #b4b4b4;
+`;
+
+export const List = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 `;
