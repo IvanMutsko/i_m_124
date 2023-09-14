@@ -16,6 +16,25 @@ export const Container = styled.div`
   color: #b4b4b4;
 `;
 
+export const Download = styled.a`
+  display: inline-flex;
+  font-size: 30px;
+  text-decoration: none;
+  color: #ffffff99;
+
+  border: 2px solid #ffffff99;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+
+  transition: background-color 250ms ease-out;
+
+  &:hover,
+  &:focus {
+    background-color: #ffffff42;
+  }
+`;
+
 export const MainTitle = styled.h2`
   font-size: 34px;
   margin-bottom: 20px;

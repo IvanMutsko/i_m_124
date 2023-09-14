@@ -1,5 +1,6 @@
 import {
   Container,
+  Download,
   MainTitle,
   TextAbout,
   Title,
@@ -8,10 +9,14 @@ import {
   List,
   Item,
 } from './About.styled';
+import cv from '../../data/Ivan_Mutsko_Junior_Frontend_Developer.pdf';
 
 export default function Home() {
   return (
     <Container>
+      <Download href={cv} download>
+        Download CV
+      </Download>
       <MainTitle>About me</MainTitle>
       <TextAbout>
         I am a Junior Front End developer with knowledge of HTML, CSS,

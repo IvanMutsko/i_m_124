@@ -1,9 +1,20 @@
+import gooseImg from '../img/works/goose.jpg';
 import phonebookImg from '../img/works/phonebook.jpg';
 import filmotekaImg from '../img/works/filmoteka.jpg';
 import miminoImg from '../img/works/mimino.jpg';
 import webstudioImg from '../img/works/webstudio.jpg';
 
 export const worksForPortfolio = [
+  {
+    image: gooseImg,
+    title: 'Task Manager GooseTrack (Team project)',
+    technologies:
+      'The project uses: React, Redux, JavaScript, Node.js and other',
+    description:
+      'GooseTrack offers a comprehensive overview of your schedule, presenting all your tasks, events, and meetings in a visually appealing and intuitive format.',
+    github: 'https://github.com/WerewolfDevLearn/project-mern-schedule-01',
+    liveLink: 'https://werewolfdevlearn.github.io/project-mern-schedule-01/',
+  },
   {
     image: phonebookImg,
     title: 'PhoneBook (Individual project)',
@@ -14,7 +25,6 @@ export const worksForPortfolio = [
     github: 'https://github.com/IvanMutsko/goit-react-hw-08-phonebook',
     liveLink: 'https://ivanmutsko.github.io/goit-react-hw-08-phonebook/',
   },
-
   {
     image: filmotekaImg,
     title: 'Filmoteka (Team project)',
