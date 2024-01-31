@@ -28,7 +28,7 @@ export const worksForPortfolio = [
   {
     image: filmotekaImg,
     title: 'Filmoteka (Team project)',
-    technologies: 'The project uses: [HTML, SASS, JS, REST API, Axios, Parcel',
+    technologies: 'The project uses: HTML, SASS, JS, REST API, Axios, Parcel',
     description:
       'An application for finding movies, viewing ratings and trailers.The possibility of creating a personal cabinet and the functionality of adding movies to the library have been implemented. Gets data from TMDB API.',
     github: 'https://github.com/WerewolfDevLearn/goit-filmoteka-team',
@@ -46,7 +46,7 @@ export const worksForPortfolio = [
   {
     image: webstudioImg,
     title: 'WebStudio (Individual project)',
-    technologies: 'The project uses: [HTML, SASS, BEM',
+    technologies: 'The project uses: HTML, SASS, BEM',
     description: 'A website with a responsive layout and semantic markup',
     github: 'https://github.com/IvanMutsko/goit-markup-hw-08',
     liveLink: 'https://ivanmutsko.github.io/goit-markup-hw-08/',
